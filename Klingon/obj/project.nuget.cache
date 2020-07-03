@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4BjyoqWyCUqu2ZT1GVIDu+UmovqjbJP7Udw8Y520zVda3HlKKMktYYI0fST/IzZBC6doNFdhHFb/UuyH2CfXKg==",
+  "dgSpecHash": "ON89dbK5+pF1xlHWOBGGZAa+efH/tnqmQ7kdjVZlMECAjviMCwB8k2jxQsorcLHnFfs8kIlMPOERkQJdpnYYwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rabi Mustapha\\Desktop\\Klingonn\\Klingon\\Klingon.csproj",
+  "projectFilePath": "C:\\Users\\Rabi Mustapha\\Desktop\\Klingon-Teste\\Klingon\\Klingon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rabi Mustapha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Rabi Mustapha\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

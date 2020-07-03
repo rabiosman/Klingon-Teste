@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rabi Mustapha\\Desktop\\Klingonn\\Klingon\\Klingon.csproj": {}
+    "C:\\Users\\Rabi Mustapha\\Desktop\\Klingon-Teste\\Klingon\\Klingon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rabi Mustapha\\Desktop\\Klingonn\\Klingon\\Klingon.csproj": {
+    "C:\\Users\\Rabi Mustapha\\Desktop\\Klingon-Teste\\Klingon\\Klingon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rabi Mustapha\\Desktop\\Klingonn\\Klingon\\Klingon.csproj",
+        "projectUniqueName": "C:\\Users\\Rabi Mustapha\\Desktop\\Klingon-Teste\\Klingon\\Klingon.csproj",
         "projectName": "Klingon",
-        "projectPath": "C:\\Users\\Rabi Mustapha\\Desktop\\Klingonn\\Klingon\\Klingon.csproj",
+        "projectPath": "C:\\Users\\Rabi Mustapha\\Desktop\\Klingon-Teste\\Klingon\\Klingon.csproj",
         "packagesPath": "C:\\Users\\Rabi Mustapha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rabi Mustapha\\Desktop\\Klingonn\\Klingon\\obj\\",
+        "outputPath": "C:\\Users\\Rabi Mustapha\\Desktop\\Klingon-Teste\\Klingon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
