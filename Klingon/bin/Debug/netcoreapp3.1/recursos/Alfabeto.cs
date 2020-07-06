@@ -2,11 +2,11 @@
 
 namespace Klingon
 {
-    public static class Alphabet
+    public static class Alfabeto
     {
-        public static Dictionary<char, long> AlphabetDictionary()
+        public static Dictionary<char, long> DicionarioAlfabeto()
         {
-            var alphabet = new Dictionary<char, long>() {
+            var alfabeto = new Dictionary<char, long>() {
                 { 'k', 0 },
                 { 'b', 1 },
                 { 'w', 2 },
@@ -28,7 +28,7 @@ namespace Klingon
                 { 'p', 18 },
                 { 's', 19 }
             };
-            return alphabet;
+            return alfabeto;
         }
     }
 }

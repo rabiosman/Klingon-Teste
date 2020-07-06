@@ -11,22 +11,22 @@ namespace Klingon
             try
             {
                 StreamReader sr = new StreamReader(@"klingon-textoB.txt");
-                string line = sr.ReadToEnd();
-                ListsFooBar lists = new ListsFooBar();
+                string linha = sr.ReadToEnd();
+                ListsFooBar listas = new ListsFooBar();
 
-                string[] letters = line.Split(" ");
+                string[] letras = linha.Split(" ");
 
-                string[] preposition = letters
-                    .Where(x => x.Length == 3 && lists.Bar()
+                string[] preposicao = letras
+                    .Where(x => x.Length == 3 && listas.Bar()
                     .Contains(x.Substring(2, 1)))
                     .ToArray();
 
-                preposition = preposition
+                preposicao = preposicao
                     .Where(y => !y
                     .Contains("d"))
                     .ToArray();
 
-                Console.WriteLine($"Existem {preposition.Length} preposições.");
+                Console.WriteLine($"Existem {preposicao.Length} preposições.");
             }
             catch (Exception e)
             {

@@ -10,10 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="assets\Alphabet.cs">
+    <Compile Update="recursos\Alfabeto.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Update="assets\ListsFooBar.cs">
+    <Compile Update="recursos\ListsFooBar.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Update="Numeros.cs">

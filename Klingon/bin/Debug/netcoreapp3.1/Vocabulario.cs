@@ -9,22 +9,22 @@ namespace Klingon
     {
         public static void ListaVocabulario()
         {
-            var alphabet = Alphabet.AlphabetDictionary();
+            var alfabeto = Alfabeto.DicionarioAlfabeto();
 
             try
             {
                 StreamReader sr = new StreamReader(@"klingon-textoB.txt");
-                string line = sr.ReadToEnd();
-                string[] letters = line.Split(" ");
+                string linha = sr.ReadToEnd();
+                string[] letras = linha.Split(" ");
 
-                string[] result = letters
-                    .OrderBy(x => alphabet[Convert.ToChar(x.Substring(0, 1))])
-                    .ThenBy(x => alphabet[Convert.ToChar(x.Substring(1, 1))])
-                    .ThenBy(x => alphabet[Convert.ToChar(x.Substring(2, 1))])
+                string[] resultado = letras
+                    .OrderBy(x => alfabeto[Convert.ToChar(x.Substring(0, 1))])
+                    .ThenBy(x => alfabeto[Convert.ToChar(x.Substring(1, 1))])
+                    .ThenBy(x => alfabeto[Convert.ToChar(x.Substring(2, 1))])
                     .Distinct()
                     .ToArray();
 
-                Console.WriteLine($"\nA lista de vocabulário é:\n{string.Join(" ", result)}\n");
+                Console.WriteLine($"\nA lista de vocabulário é:\n{string.Join(" ", resultado)}\n");
             }
             catch (Exception e)
             {

@@ -19,8 +19,6 @@ C:\Users\Rabi Mustapha\Desktop\Klingonn\Klingon\bin\Debug\netcoreapp3.1\Verbos.c
 C:\Users\Rabi Mustapha\Desktop\Klingonn\Klingon\bin\Debug\netcoreapp3.1\Preposicoes.cs
 C:\Users\Rabi Mustapha\Desktop\Klingonn\Klingon\bin\Debug\netcoreapp3.1\Numeros.cs
 C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\bin\Debug\netcoreapp3.1\Klingon.exe
-C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\bin\Debug\netcoreapp3.1\assets\Alphabet.cs
-C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\bin\Debug\netcoreapp3.1\assets\ListsFooBar.cs
 C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\bin\Debug\netcoreapp3.1\Numeros.cs
 C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\bin\Debug\netcoreapp3.1\Preposicoes.cs
 C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\bin\Debug\netcoreapp3.1\Program.cs
@@ -38,3 +36,5 @@ C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\obj\Debug\netcoreapp3.1\Kli
 C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\obj\Debug\netcoreapp3.1\Klingon.dll
 C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\obj\Debug\netcoreapp3.1\Klingon.pdb
 C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\obj\Debug\netcoreapp3.1\Klingon.genruntimeconfig.cache
+C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\bin\Debug\netcoreapp3.1\recursos\Alfabeto.cs
+C:\Users\Rabi Mustapha\Desktop\Klingon-Teste\Klingon\bin\Debug\netcoreapp3.1\recursos\ListsFooBar.cs

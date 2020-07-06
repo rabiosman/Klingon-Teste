@@ -9,89 +9,89 @@ namespace Klingon
     {
         public static void NumerosBonitos()
         {
-            var alphabet = Alphabet.AlphabetDictionary();
+            var alfabeto = Alfabeto.DicionarioAlfabeto();
 
             try
             {
-                StreamReader sr = new StreamReader(@"klingon-textoB.txt");
-                string line = sr.ReadToEnd();
-                List<long> list = new List<long>();
-                string[] words = line.Split(" ");
+                StreamReader arquivo = new StreamReader(@"klingon-textoB.txt");
+                string linha = arquivo.ReadToEnd();
+                List<long> lista = new List<long>();
+                string[] palavras = linha.Split(" ");
 
-                for (int j = 0; j < words.Length; j++)
+                for (int coluna = 0; coluna < palavras.Length; coluna++)
                 {
                     long total = 0;
-                    var letters = words[j].ToCharArray();
+                    var letras = palavras[coluna].ToCharArray();
 
-                    for (int i = 0; i < letters.Length; i++)
+                    for (int indice = 0; indice < letras.Length; indice++)
                     {
-                        if (i == 0)
+                        if (indice == 0)
                         {
-                            var firstNumber = alphabet.GetValueOrDefault(letters[i]);
-                            firstNumber *= 1;
-                            total += firstNumber;
+                            var primeiroNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            primeiroNumero *= 1;
+                            total += primeiroNumero;
                         }
-                        else if (i == 1)
+                        else if (indice == 1)
                         {
-                            var secondNumber = alphabet.GetValueOrDefault(letters[i]);
-                            secondNumber *= 20;
-                            total += secondNumber;
+                            var segundoNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            segundoNumero *= 20;
+                            total += segundoNumero;
                         }
-                        else if (i == 2)
+                        else if (indice == 2)
                         {
-                            var thirdNumber = alphabet.GetValueOrDefault(letters[i]);
-                            thirdNumber *= 400;
-                            total += thirdNumber;
+                            var terceiroNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            terceiroNumero *= 400;
+                            total += terceiroNumero;
                         }
-                        else if (i == 3)
+                        else if (indice == 3)
                         {
-                            var fourthNumber = alphabet.GetValueOrDefault(letters[i]);
-                            fourthNumber *= 8000;
-                            total += fourthNumber;
+                            var quartoNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            quartoNumero *= 8000;
+                            total += quartoNumero;
                         }
-                        else if (i == 4)
+                        else if (indice == 4)
                         {
-                            var fifthNumber = alphabet.GetValueOrDefault(letters[i]);
-                            fifthNumber *= 160000;
-                            total += fifthNumber;
+                            var quintoNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            quintoNumero *= 160000;
+                            total += quintoNumero;
                         }
-                        else if (i == 5)
+                        else if (indice == 5)
                         {
-                            var sixthNumber = alphabet.GetValueOrDefault(letters[i]);
-                            sixthNumber *= 3200000;
-                            total += sixthNumber;
+                            var sextoNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            sextoNumero *= 3200000;
+                            total += sextoNumero;
                         }
-                        else if (i == 6)
+                        else if (indice == 6)
                         {
-                            var seventhNumber = alphabet.GetValueOrDefault(letters[i]);
-                            seventhNumber *= 64000000;
-                            total += seventhNumber;
+                            var setimoNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            setimoNumero *= 64000000;
+                            total += setimoNumero;
                         }
-                        else if (i == 7)
+                        else if (indice == 7)
                         {
-                            var eighthNumber = alphabet.GetValueOrDefault(letters[i]);
-                            eighthNumber *= 1280000000;
-                            total += eighthNumber;
+                            var oitavoNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            oitavoNumero *= 1280000000;
+                            total += oitavoNumero;
                         }
-                        else if (i == 8)
+                        else if (indice == 8)
                         {
-                            var ninethNumber = alphabet.GetValueOrDefault(letters[i]);
-                            ninethNumber *= 25600000000;
-                            total += ninethNumber;
+                            var nonoNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            nonoNumero *= 25600000000;
+                            total += nonoNumero;
                         }
-                        else if (i == 9)
+                        else if (indice == 9)
                         {
-                            var tenthNumber = alphabet.GetValueOrDefault(letters[i]);
-                            tenthNumber *= 512000000000;
-                            total += tenthNumber;
+                            var decimoNumero = alfabeto.GetValueOrDefault(letras[indice]);
+                            decimoNumero *= 512000000000;
+                            total += decimoNumero;
                         }
                     }
                     if (total >= 440566 && (total % 3) == 0)
                     {
-                        list.Add(total);
+                        lista.Add(total);
                     }
                 }
-                Console.WriteLine($"Existem {list.Distinct().Count()} números bonitos distintos.");
+                Console.WriteLine($"Existem {lista.Distinct().Count()} números bonitos distintos.");
 
             }
             catch (Exception e)

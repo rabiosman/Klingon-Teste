@@ -12,22 +12,22 @@ namespace Klingon
             try
             {
                 StreamReader sr = new StreamReader(@"klingon-textoB.txt");
-                string line = sr.ReadToEnd();
-                string[] letters = line.Split(" ");
-                ListsFooBar lists = new ListsFooBar();
+                string linha = sr.ReadToEnd();
+                string[] letras = linha.Split(" ");
+                ListsFooBar listas = new ListsFooBar();
 
-                string[] verbs = letters
-                    .Where(x => x.Length >= 8 && lists.Foo()
+                string[] verbos = letras
+                    .Where(x => x.Length >= 8 && listas.Foo()
                     .Contains(x.Substring(x.Length - 1, 1)))
                     .ToArray();
 
-                string[] firstPersonVerbs = verbs
-                    .Where(x => lists.Bar()
+                string[] verbosPrimeiraPessoa = verbos
+                    .Where(x => listas.Bar()
                     .Contains(x.Substring(0, 1)))
                     .ToArray();
 
-                Console.WriteLine($"\nExistem {verbs.Length} verbos.\n");
-                Console.WriteLine($"Existem {firstPersonVerbs.Length} verbos em primeira pessoa.\n");
+                Console.WriteLine($"\nExistem {verbos.Length} verbos.\n");
+                Console.WriteLine($"Existem {verbosPrimeiraPessoa.Length} verbos em primeira pessoa.\n");
             }
             catch (Exception e)
             {
